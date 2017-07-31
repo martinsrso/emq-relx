@@ -10,8 +10,7 @@ DEPS += emqttd emq_modules emq_dashboard emq_retainer emq_recon emq_reloader \
         emq_auth_clientid emq_auth_username emq_auth_ldap emq_auth_http \
         emq_auth_mysql emq_auth_pgsql emq_auth_redis emq_auth_mongo \
         emq_sn emq_coap emq_stomp emq_plugin_template emq_web_hook \
-        emq_lua_hook emq_elixir_plugin emq_auth_jwt emq_lwm2m \
-				emq_redis_auth
+        emq_lua_hook emq_auth_jwt emq_lwm2m emq_redis_auth \
 
 # emq deps
 dep_emqttd        = git https://github.com/emqtt/emqttd v2.3-rc.1
@@ -48,7 +47,7 @@ dep_emq_redis_auth = git https://github.com/guilhermef/emq-redis-auth-plugin.git
 
 # COVER = true
 
-NO_AUTOPATCH = emq_elixir_plugin emq_redis_auth
+NO_AUTOPATCH = emq_redis_auth
 
 #NO_AUTOPATCH = emq_elixir_plugin
 include erlang.mk
