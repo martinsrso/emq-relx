@@ -43,7 +43,7 @@ dep_emq_plugin_template = git https://github.com/emqtt/emq-plugin-template v2.3-
 dep_emq_web_hook  = git https://github.com/emqtt/emq-web-hook v2.3-rc.1
 dep_emq_lua_hook  = git https://github.com/emqtt/emq-lua-hook v2.3-rc.1
 #dep_emq_elixir_plugin = git  https://github.com/emqtt/emq-elixir-plugin master
-dep_emq_redis_auth = git https://github.com/topfreegames/emq-redis-auth-plugin.git master
+dep_emq_redis_auth = git https://github.com/topfreegames/emq-redis-auth-plugin.git v1
 
 # COVER = true
 
