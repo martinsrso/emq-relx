@@ -731,7 +731,7 @@ define dep_fetch_hex.erl
 	ssl:start(),
 	inets:start(),
 	{ok, {{_, 200, _}, _, Body}} = httpc:request(get,
-		{"https://s3.amazonaws.com/s3.hex.pm/tarballs/$(1)-$(2).tar", []},
+		{"https://repo.hex.pm/tarballs/$(1)-$(2).tar", []},
 		[], [{body_format, binary}]),
 	{ok, Files} = erl_tar:extract({binary, Body}, [memory]),
 	{_, Source} = lists:keyfind("contents.tar.gz", 1, Files),
