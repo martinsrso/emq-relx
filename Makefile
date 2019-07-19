@@ -43,7 +43,7 @@ dep_emq_plugin_template = git https://github.com/emqtt/emq-plugin-template v2.3.
 dep_emq_web_hook  = git https://github.com/topfreegames/emqx-web-hook tfg-v2.3.1.0
 dep_emq_lua_hook  = git https://github.com/emqtt/emq-lua-hook v2.3.1
 dep_emq_es_storage = git https://github.com/topfreegames/emq-es-storage.git master
-dep_emq_throttle_plugin = git https://github.com/topfreegames/emq_throttle_plugin.git v1.3
+dep_emq_throttle_plugin = git https://github.com/topfreegames/emq_throttle_plugin.git v1.4
 
 # COVER = true
 
