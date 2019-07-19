@@ -13,7 +13,7 @@ DEPS += emqttd emq_modules emq_dashboard emq_retainer emq_recon emq_reloader \
         emq_lua_hook emq_auth_jwt emq_es_storage emq_throttle_plugin \
 
 # emq deps
-dep_emqttd        = git https://github.com/emqtt/emqttd master
+dep_emqttd        = git https://github.com/topfreegames/emqx tfg-v2.3.1.0
 dep_emq_modules   = git https://github.com/emqtt/emq-modules v2.3.1
 dep_emq_dashboard = git https://github.com/emqtt/emq-dashboard v2.3.1
 dep_emq_retainer  = git https://github.com/emqtt/emq-retainer v2.3.1
