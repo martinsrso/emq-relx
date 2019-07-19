@@ -10,7 +10,7 @@ DEPS += emqttd emq_modules emq_dashboard emq_retainer emq_recon emq_reloader \
         emq_auth_clientid emq_auth_username emq_auth_ldap emq_auth_http \
         emq_auth_mysql emq_auth_pgsql emq_auth_redis emq_auth_mongo \
         emq_sn emq_coap emq_stomp emq_plugin_template emq_web_hook \
-        emq_lua_hook emq_auth_jwt emq_redis_auth emq_es_storage emq_throttle_plugin \
+        emq_lua_hook emq_auth_jwt emq_es_storage emq_throttle_plugin \
 
 # emq deps
 dep_emqttd        = git https://github.com/emqtt/emqttd master
@@ -42,13 +42,12 @@ dep_emq_plugin_template = git https://github.com/emqtt/emq-plugin-template v2.3.
 # web_hook lua_hook
 dep_emq_web_hook  = git https://github.com/emqtt/emq-web-hook v2.3.1
 dep_emq_lua_hook  = git https://github.com/emqtt/emq-lua-hook v2.3.1
-dep_emq_redis_auth = git https://github.com/topfreegames/emq-redis-auth-plugin.git v1.4
 dep_emq_es_storage = git https://github.com/topfreegames/emq-es-storage.git master
 dep_emq_throttle_plugin = git https://github.com/topfreegames/emq_throttle_plugin.git v1.3
 
 # COVER = true
 
-NO_AUTOPATCH = emq_redis_auth emq_es_storage
+NO_AUTOPATCH = emq_es_storage
 
 include erlang.mk
 
