@@ -40,7 +40,7 @@ dep_emq_stomp = git https://github.com/emqtt/emq-stomp v2.3.1
 dep_emq_plugin_template = git https://github.com/emqtt/emq-plugin-template v2.3.1
 
 # web_hook lua_hook
-dep_emq_web_hook  = git https://github.com/emqtt/emq-web-hook v2.3.1
+dep_emq_web_hook  = git https://github.com/topfreegames/emqx-web-hook tfg-v2.3.1.0
 dep_emq_lua_hook  = git https://github.com/emqtt/emq-lua-hook v2.3.1
 dep_emq_es_storage = git https://github.com/topfreegames/emq-es-storage.git master
 dep_emq_throttle_plugin = git https://github.com/topfreegames/emq_throttle_plugin.git v1.3
