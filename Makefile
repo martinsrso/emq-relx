@@ -25,7 +25,7 @@ dep_emq_reloader  = git https://github.com/emqtt/emq-reloader v2.3.1
 #dep_emq_auth_mysql    = git https://github.com/emqtt/emq-auth-mysql v2.3.1
 #dep_emq_auth_pgsql    = git https://github.com/emqtt/emq-auth-pgsql v2.3.1
 #dep_emq_auth_redis    = git https://github.com/emqtt/emq-auth-redis v2.3.1
-dep_emq_auth_mongo    = git https://github.com/TIotti/emq-auth-mongo v2.3.1
+dep_emq_auth_mongo    = git https://github.com/emqtt/emq-auth-mongo master
 #dep_emq_auth_jwt      = git https://github.com/emqtt/emq-auth-jwt v2.3.1
 
 # mqtt-sn, coap and stomp
