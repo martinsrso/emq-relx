@@ -21,34 +21,35 @@ dep_emq_recon     = git https://github.com/emqtt/emq-recon v2.3.1
 dep_emq_reloader  = git https://github.com/emqtt/emq-reloader v2.3.1
 
 # emq auth/acl plugins
-dep_emq_auth_clientid = git https://github.com/emqtt/emq-auth-clientid v2.3.1
+#dep_emq_auth_clientid = git https://github.com/emqtt/emq-auth-clientid v2.3.1
 dep_emq_auth_username = git https://github.com/emqtt/emq-auth-username v2.3.1
-dep_emq_auth_ldap     = git https://github.com/emqtt/emq-auth-ldap v2.3.11
-dep_emq_auth_http     = git https://github.com/emqtt/emq-auth-http v2.3.1
-dep_emq_auth_mysql    = git https://github.com/emqtt/emq-auth-mysql v2.3.1
-dep_emq_auth_pgsql    = git https://github.com/emqtt/emq-auth-pgsql v2.3.1
+#dep_emq_auth_ldap     = git https://github.com/emqtt/emq-auth-ldap v2.3.11
+#dep_emq_auth_http     = git https://github.com/emqtt/emq-auth-http v2.3.1
+#dep_emq_auth_mysql    = git https://github.com/emqtt/emq-auth-mysql v2.3.1
+#dep_emq_auth_pgsql    = git https://github.com/emqtt/emq-auth-pgsql v2.3.1
 dep_emq_auth_redis    = git https://github.com/emqtt/emq-auth-redis v2.3.1
-dep_emq_auth_mongo    = git https://github.com/topfreegames/emq-auth-mongo master
-dep_emq_auth_jwt      = git https://github.com/emqtt/emq-auth-jwt v2.3.1
+dep_emq_auth_mongo    = git https://github.com/topfreegames/emq-auth-mongo v2.3.1
+#dep_emq_auth_jwt      = git https://github.com/emqtt/emq-auth-jwt v2.3.1
 
 # mqtt-sn, coap and stomp
-dep_emq_sn    = git https://github.com/emqtt/emq-sn v2.3.1
-dep_emq_coap  = git https://github.com/emqtt/emq-coap v2.3.1
-dep_emq_stomp = git https://github.com/emqtt/emq-stomp v2.3.1
+#dep_emq_sn    = git https://github.com/emqtt/emq-sn v2.3.1
+#dep_emq_coap  = git https://github.com/emqtt/emq-coap v2.3.1
+#dep_emq_stomp = git https://github.com/emqtt/emq-stomp v2.3.1
 
 # plugin template
 dep_emq_plugin_template = git https://github.com/emqtt/emq-plugin-template v2.3.1
 
 # web_hook lua_hook
 dep_emq_web_hook  = git https://github.com/topfreegames/emqx-web-hook tfg-v2.3.1.0
-dep_emq_lua_hook  = git https://github.com/emqtt/emq-lua-hook v2.3.1
-dep_emq_es_storage = git https://github.com/topfreegames/emq-es-storage.git master
+#dep_emq_lua_hook  = git https://github.com/emqtt/emq-lua-hook v2.3.1
+#dep_emq_es_storage = git https://github.com/topfreegames/emq-es-storage.git master
 dep_emq_vendor_interface_plugin = git git@git.topfreegames.com:thiago.iotti/emq_vendor_interface_plugin.git develop
 dep_emq_throttle_plugin = git https://github.com/topfreegames/emq_throttle_plugin.git v1.4
 
 # COVER = true
 
-NO_AUTOPATCH = emq_es_storage emq_vendor_interface_plugin
+#NO_AUTOPATCH = emq_es_storage emq_vendor_interface_plugin
+NO_AUTOPATCH = emq_vendor_interface_plugin
 
 include erlang.mk
 
